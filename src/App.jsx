@@ -158,7 +158,7 @@ function App() {
                 <img 
                     onClick={handleStartGame}
                     src={ball} 
-                    className='w-[50%] cursor-pointer' />
+                    className='w-[50%] md:[30%] cursor-pointer' />
                </div>
                
             </>
