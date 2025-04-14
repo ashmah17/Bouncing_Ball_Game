@@ -96,7 +96,7 @@ function App() {
             startGame ?
             <>
 
-                <div className="relative w-full h-[100vh]">
+                <div className="relative h-[100vh]">
                   <img 
                      
                       style={{
@@ -151,9 +151,9 @@ function App() {
             
             </> :
             <>
-              <div className="p-6 flex flex-col items-center justify-center mt-[3rem]">
+              <div className="p-6 flex flex-col items-center justify-center mt-[2rem]">
                 <h1 className="text-3xl md:text-4xl text-red-900 font-semibold">Bouncing Ball Game</h1>
-                <p className="w-[70%] m-3 text-center text-red-900">A game where the ball moves randomly around the screen, your goal is to click the ball as many times you can in 10 secs, the faster you clicked the higher you will score.</p>
+                <p className="w-[70%] m-3 text-[.8rem] text-center text-red-900">A game where the ball moves randomly around the screen, your goal is to click the ball as many times you can in 10 secs, the faster you clicked the higher you will score.</p>
                 <p className="font-bold text-red-900">Click the ball to start</p>
                 <img 
                     onClick={handleStartGame}
