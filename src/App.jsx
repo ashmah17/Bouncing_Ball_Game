@@ -6,7 +6,7 @@ import musicOn from './assets/music_on.svg'
 import ball from './assets/ball.svg'
 import close from './assets/close.svg'
 import row from './assets/row-row.mp3'
-import gameBall from './assets/gameBall.svg'
+import gameBall from './assets/gameball.svg'
 import smile from './assets/smile.svg'
 import notBad from './assets/not-bad.svg'
 
